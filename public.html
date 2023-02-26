@@ -5,5 +5,15 @@
     </head>
     <body>
         <h1>Hello World!</h1>
+        <div id="naver_id_login"></div>
+        <script type="text/javascript">
+            var naver_id_login = new naver_id_login("");
+            var state = naver_id_login.getUniqState();
+            naver_id_login.setbutto("white", 2,40);
+            naver_id_login.setDomain("YOUR_SERVICE_URL");
+            naver_id_login.setState(state);
+            naver_id_login.setPopup();
+            naver_id_login.init_naver_id_login();
+        </script>
     </body>
 </html>
