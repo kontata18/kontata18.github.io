@@ -1,0 +1,119 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+body {
+    font-family: 'Nanum Gothic';
+}
+
+input div{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    height: 100px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    width: 800px;
+}
+
+.Login_form {
+    width: 430px;
+    height: 200px;
+    padding: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.ID_PW_Input {
+    width: 430px;
+    height: 85px;
+    margin-bottom: 10px;
+}
+
+.Input_box {
+    width: 430px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.ID_PW_Input div:first-child {
+    margin-bottom: 5px;
+}
+
+.Input_box Input {
+    width: 90%;
+    height: 100%;
+    border-style: none;
+    outline: none;
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+
+#Input_icon {
+    width: 10%;
+    height: 100%;
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.id_icon {
+    background-image: url("/id_icon.png");
+}
+
+.pw_icon {
+    background-image: url("/pw_icon.png");
+}
+
+.sub_ID_PW_Input {
+    height: 15px;
+    width: 430px;
+}
+
+.sub_ID_PW_Input label {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 10px;
+}
+
+.Login_form button {
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.Login_help {
+    padding: 30 0px;
+    text-align: center;
+}
+
+.Login_help a {
+    text-decoration: none;
+    color: #888;
+}
+
+.Login_help li {
+    position: relative;
+    display: inline-block;
+    color: #888;
+}
+
+.Login_help li+li {
+    padding: 0 0 0 28px;
+}
+
+.Login_help li+li::before {
+    content: "|";
+    position: absolute;
+    left: 10px;
+}
