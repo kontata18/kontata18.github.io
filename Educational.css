@@ -4,6 +4,11 @@ body {
     font-family: 'Nanum Gothic';
 }
 
+input {
+    margin: 0px;
+    padding: 0px;
+}
+
 input div{
     margin: 0px;
     padding: 0px;
@@ -12,8 +17,6 @@ input div{
 .header {
     height: 100px;
     padding-bottom: 50px;
-    margin: 0 auto;
-    width: 800px;
     text-align: center;
 }
 
@@ -48,28 +51,38 @@ input div{
     width: 430px;
     height: 40px;
     border: 1px solid gray;
-    border-radius: 30px;
+    border-radius: 0px;
     padding: 5px;
     box-sizing: border-box;
+}
+
+#Login_Input {
+    border-radius: 30px;
+}
+
+#Login_Input input {
+    width: 90%;
+    padding-left: 5px;
 }
 
 .ID_PW_Input div:first-child {
     margin-bottom: 5px;
 }
 
-.Input_box Input {
-    width: 90%;
+.Input_box input {
     height: 100%;
     border-style: none;
     outline: none;
     box-sizing: border-box;
     padding-left: 5px;
+    padding: 0px;
+    width: 100%;
 }
 
 #Input_icon {
     width: 10%;
     height: 100%;
-    background-size: 80%;
+    background-size: 60%;
     background-position: center;
     background-repeat: no-repeat;
     float: left;
@@ -94,7 +107,7 @@ input div{
     font-size: 10px;
 }
 
-.Login_form button {
+.Input_button {
     width: 100%;
     height: 50px;
     font-size: 18px;
@@ -106,18 +119,19 @@ input div{
 
 .Login_help {
     padding: 30 0px;
+    margin: 16 0px;
     text-align: center;
 }
 
 .Login_help a {
     text-decoration: none;
-    color: #888;
+    color: black;
+    font-size: 16px;
 }
 
 .Login_help li {
     position: relative;
     display: inline-block;
-    color: #888;
 }
 
 .Login_help li+li {
