@@ -2,42 +2,59 @@
     <head>
         <meta charset = "utf-8">
         <title>회원가입</title>
-        <meta name="keyword" content="회원가입,html">
+        <meta name="keyword" content="로그인,html">
         <link rel="stylesheet" type="text/css" href="/Educational.css">
+        <link rel="stylesheet" type="text/css" href="/footer.css">
     </head>
     <body>
-        <div class="header"><a target="_blank" href="#">LOGIN</a></div>
+        <header>
+        <div class="header"><a target="_blank" href="#">로긴?</a></div>
+        </header>
         <div class="content">
-            <div class="Login_form">
-                <div class="ID_PW_Input">
-                    <div class="Input_box">
-                        <div id="Input_icon" class="id_icon"></div>
-                        <input type="text" class="Input" placeholder="아이디" required="required">
+            <form>
+                <div class="Login_form">
+                    <div class="ID_PW_Input">
+                        <div id="Login_Input" class="Input_box">
+                            <div id="Input_icon" class="id_icon"></div>
+                            <input type="text" class="Input" placeholder="아뒤" required="required">
+                        </div>
+                        <div id="Login_Input" class="Input_box">
+                            <div id="Input_icon" class="pw_icon"></div>
+                            <input type="password" class="Input" placeholder="비?" required="required">
+                        </div>
                     </div>
-                    <div class="Input_box">
-                        <div id="Input_icon" class="pw_icon"></div>
-                        <input type="password" class="Input" placeholder="비밀번호" required="required">
+                    <div class="sub_ID_PW_Input">
+                        <input type="checkbox" name="id_save" required="required">
+                        <label for="id_save">저장 안됨</label>
+                        <input type="checkbox" name="auto_login" required="required">
+                        <label for="auto_login">자동 로긴 어차피 안됨</label>
                     </div>
+                    <input type="button" class="Input_button" value="로그인">
                 </div>
-                <div class="sub_ID_PW_Input">
-                    <input type="checkbox" name="id_save" required="required">
-                    <label for="id_save">아이디 저장</label>
-                    <input type="checkbox" name="auto_login" required="required">
-                    <label for="auto_login">자동 로그인</label>
-                </div>
-                <button type="submit">로그인</button>
-            </div>
+            </form>
+        </div>
             <ul class="Login_help">
                 <li>
-                    <a target="_blank" href="#">아이디 찾기</a>
+                    <a target="_blank" href="findID.html">찾아 아아디</a>
                 </li>
                 <li>
-                    <a target="_blank" href="#">비밀번호 찾기</a>
+                    <a target="_blank" href="findPW.html">찾아라, 비번</a>
                 </li>
                 <li>
-                    <a target="_blank" href="#">회원가입</a>
+                    <a target="_blank" href="account.html">회원가입 응 안돼</a>
                 </li>
+            </ul>
+        <footer>
+            <div class="footer">
+                <div class="footer_left">
+                    <p>대한민국 서울특별시 노원구 물주먹 이정현</p>
+                    <p>TEL : 010 - 4912 - 5849</p>
+                    <p>E-mail : kontata18@naver.com</p>
+                    <br>
+                    <p>꼬우면 연락하세요.</p>
+                    <p>CopyRight. 2022 Educational. All Rights Reserved.</p>
+                </div>
             </div>
-        </div>
+        </footer>
     </body>
 </html>
