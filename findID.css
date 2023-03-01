@@ -1,0 +1,51 @@
+.findID_info {
+    height: 40px;
+    margin-bottom: 5px;
+    text-align: right;
+
+}
+
+.findID_info p {
+    display: inline-block;
+    margin: 0px;
+    padding: 11 8px;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.findID_text {
+    width: 20%;
+    height: 40px;
+    float: left;
+}
+
+#Input_box {
+    border-radius: 0px;
+    width: 80%;
+    float: left;
+    padding-left: 10px;
+}
+
+#findID_button {
+    margin-top: 15px;
+}
+
+.findID_birth {
+    width: 80%;
+    float: left;
+}
+
+select {
+    width: 32.4%;
+    height: 100%;
+}
+
+select option {
+    text-align: right;
+}
+
+#findID_help {
+    font-size: 13px;
+}
