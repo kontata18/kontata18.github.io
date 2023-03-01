@@ -1,0 +1,21 @@
+.footer {
+    width: 700px;
+    height: 200px;
+    margin: auto;
+    font-size: 10px;
+}
+
+.footer_left {
+    width: 500px;
+    height: 100%;
+    float: left;
+    padding: 20 0 20 20px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+p {
+    display: block;
+    height: 15px;
+    letter-spacing: -0.025em;
+}
